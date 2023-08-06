@@ -68,7 +68,7 @@ a{
 .navbar::before{
     content: "";
     /* background-color: black; */
-    background: url('images/bg_1.jpg');
+    background: url('  bg_1.jpg');
     background-position: center;
     position: absolute;
     top:0px;
@@ -351,12 +351,12 @@ form>p{
 .c_profile{
     height: 120px;   
     width: 120px;
-    background-image: url('images/person_1.jpg');
+    background-image: url('person_1.jpg');
     background-size: 120px;
     background-repeat: no-repeat;
 }
 .c_profile_diff{
-    background-image: url('images/person_2.jpg');
+    background-image: url('person_2.jpg');
 }
 
 
@@ -419,7 +419,7 @@ form>p{
 }
 
 .speaker_img{
-    background: url('images/Schedule_staff-3.jpg');
+    background: url('Schedule_staff-3.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
