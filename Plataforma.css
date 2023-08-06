@@ -9,14 +9,12 @@
 header{
     display: flex;
     justify-content: space-between;
-    /* flex-direction: column; */
     background-color: #333;;
     padding: 50px auto;
     padding-right: 20px;
     max-height: 60px;
     height: 15vh;
     align-items: center;
-    /* margin: 20px; */
     gap: 20px;
     position: fixed;
     top: 0;
@@ -55,11 +53,9 @@ header{
 .disp_flex2{
     display: flex;
     gap: 30px;
-    /* flex-direction: column; */
 }
 p{
   font-family: 'Nunito Sans', sans-serif;
-  /* font-size: 1.2rem; */
 }
 a{
     text-decoration: none;
@@ -67,8 +63,7 @@ a{
 }
 .navbar::before{
     content: "";
-    /* background-color: black; */
-    background: url('  bg_1.jpg');
+    background: url('bg_1.jpg');
     background-position: center;
     position: absolute;
     top:0px;
@@ -98,7 +93,6 @@ ul{
 .btn{
     border: none;
     border-radius: 3px;
-    /* border: 1px solid black; */
     background-color: blue;
     padding: 9px 12px;
     color: white !important;
@@ -107,18 +101,10 @@ ul{
     font-size: 1.5rem;
     font-weight: bold;
 }
-.disabled{
-    /* opacity: 0.3; */
-    /* font-size: 1.2rem; */
-}
-
 
 /* Navbar ends sucessfully */
 
 .main-container{
-    /* display: flex;
-    justify-content: space-between;
-    padding-inline: 15vw; */
     margin-top: 120px;
 }
 .left{
@@ -136,10 +122,8 @@ margin-top: 134px;
     font-size: 3rem;
     color: blue;
     font-weight: bold;
-    /* font-family: sans-serif; */
 }
 .blur{
-    /* opacity: 0.6; */
     font-family: 'Nunito Sans', sans-serif;
 }
 .times{
@@ -157,7 +141,6 @@ margin-top: 134px;
 .opac{
     opacity: 0.6;
 }
-
 
 /* form starts from here */
 form{
@@ -189,9 +172,6 @@ form>p{
 /* the form and conference is End*/
 
 .VTHR{
-    /* display: flex;
-    justify-content: space-between;
-    padding-inline: 15vw; */
     margin-top: 110px;
     color: white;
     background-color: #1162fb;
@@ -206,8 +186,6 @@ form>p{
 }
 
 /*    Address section Ends  */
-
-
 .image img{
     width: 400px;
     height: 600px;
@@ -223,15 +201,9 @@ form>p{
     font-weight: 100;
 }
 
-
-
 /* conference schedule starts from here */
-
 .Schedule-h2{
     text-align: center;
-    /* margin-top: 80px;
-    margin-bottom: 80px; */
-    /* margin: 90px auto; */
     margin: 90px auto 50px auto;
     font-size: 3rem;
     font-weight: 500;
@@ -279,11 +251,8 @@ form>p{
 
 .Schedule-main{
     display: flex;
-    /* justify-content: space-between; */
     padding-inline: 15vw;
     gap: 20px;
-    /* padding-top: 30px; */
-
 }
 .staff img{
     width: 180px;
@@ -306,19 +275,16 @@ form>p{
 .bottom_border{
     border-bottom: 0.2px solid grey;
     padding-bottom: 30px;
-    /* padding-top: 30px; */
 }
 
 /*   <!-- Conference Schedule Ends --> */
 
 .gallery_main{
     display: flex;
-    /* flex-direction: row; */
     gap: 20px;
     padding-inline: 80px;
 }
 .gallery_main img{
-    /* width: 400px; */
     width: 25%;
 }
 
@@ -331,7 +297,6 @@ form>p{
     flex-direction: column;
     width: 35%;
     text-align: center;
-    /* justify-content: center; */
     gap: 10px;
     align-items: center;
 }
@@ -362,13 +327,11 @@ form>p{
 
 /* <!-- Happy Clients Ends secessfully --> */
 .box{
-    /* justify-content: space-evenly; */
     text-align: center;
     line-height: 2.5;
     border: 1px solid rgba(0, 0, 0, 0.05);
     padding: 10px 20px;
     border-radius: 5px;
-    /* background-color: #fff; */
     width: 33%;
 }
 .Pricing_main{
@@ -411,11 +374,9 @@ form>p{
 
 .Speakers_uniq{
     position: relative;
-    /* display: block; */
     top: 180px;
     left: 330px; 
     gap: 5px;
-
 }
 
 .speaker_img{
@@ -485,7 +446,6 @@ form>p{
     width: 40vw;
     display: flex;
     text-align: center;
-    /* align-items: center; */
     margin: 10px auto;
 }
 .form_div input{
@@ -543,7 +503,6 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* font-family: font-family: 'Nunito Sans', sans-serif;; */
 }
 .footer_div ul li{
    list-style: none;
@@ -551,13 +510,11 @@ footer{
 .footer_div ul li a{
     text-decoration: none;
    color: white;
-   /* font-weight: 10; */
    font-weight: bold;
 }
 .footer_logo img{
     filter: invert(100%);
     margin-top: 50px !important;
-    /* gap: 10px; */
     margin-right: 5px;
     width: 40px !important;
 }
