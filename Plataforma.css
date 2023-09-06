@@ -6,43 +6,6 @@
     box-sizing: border-box;
 }
 
-/* header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #333;;
-    padding: 50px auto;
-    padding-right: 20px;
-    max-height: 60px;
-    height: 15vh;
-    align-items: center;
-    gap: 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.header_text p a{
-    text-align: center;
-    color: #9B9B9B;
-}
-.first_header{
-    margin: 20px;
-}
-.first_header img{
-    width: 100px;
-}
-.second_header img{
-    width: 25px;
-    filter: invert(100%);
-    opacity: 0.6;
-}
-.second_header img:hover{
-    opacity: 1.2;
-} */
-
-/* header section Ends sucessfully */
-
-
 .same_section{
     display: flex;
     justify-content: space-between;
@@ -76,7 +39,7 @@ a{
     opacity: 1;
 }
 .navbar{
-    margin-top: 30px;
+    margin-top: 25px;
 }
 ul{
     display: flex;
@@ -174,7 +137,7 @@ form>p{
 /* the form and conference is End*/
 
 .VTHR{
-    margin-top: 110px;
+    margin-top: 80px;
     color: white;
     background-color: #1162fb;
     padding-top: 130px;
