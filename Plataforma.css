@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-header{
+/* header{
     display: flex;
     justify-content: space-between;
     background-color: #333;;
@@ -38,9 +38,11 @@ header{
 }
 .second_header img:hover{
     opacity: 1.2;
-}
+} */
 
 /* header section Ends sucessfully */
+
+
 .same_section{
     display: flex;
     justify-content: space-between;
@@ -74,7 +76,7 @@ a{
     opacity: 1;
 }
 .navbar{
-    margin-top: 80px;
+    margin-top: 30px;
 }
 ul{
     display: flex;
@@ -530,5 +532,4 @@ footer{
     width: 20px;
     filter: invert(100%);
 }
-
 
