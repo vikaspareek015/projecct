@@ -1,0 +1,498 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.same_section{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 15vw;
+}
+.disp_flex{
+    display: flex;
+    flex-direction: column;
+}
+.disp_flex2{
+    display: flex;
+    gap: 30px;
+}
+p{
+  font-family: 'Nunito Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.navbar::before{
+    content: "";
+    background: url('images/bg_1.jpg');
+    background-position: center;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 1;
+}
+.navbar{
+    margin-top: 25px;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    font-family: sans-serif;
+
+}
+.two ul li{
+    list-style: none; 
+}
+.two ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+.btn{
+    border: none;
+    border-radius: 3px;
+    background-color: blue;
+    padding: 9px 12px;
+    color: white !important;
+}
+#PLATAFORMA{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navbar ends sucessfully */
+
+.main-container{
+    margin-top: 120px;
+}
+.left{
+margin-top: 134px;
+
+}
+.size_BL{
+    font-size: 1.7rem;
+}
+.size_DT{
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+.CONFERENCE{
+    font-size: 3rem;
+    color: blue;
+    font-weight: bold;
+}
+.blur{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.times{
+    display: flex;
+    gap: 10px;
+}
+.time{
+    border-right: 2px solid  gray;
+    padding: 10px;
+}
+.color{
+    color: blue;
+    font-size: 3rem ;
+}
+.opac{
+    opacity: 0.6;
+}
+
+/* form starts from here */
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 30px;
+    width: 24vw;
+    border-radius: 10px;
+}
+form> input{
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid rgb(224, 222, 215);
+}
+form>p{
+    font-size: 2rem;
+}
+.join{
+    background-color: blue;
+    color: white;
+    width:  100%;
+    padding: 20px;
+    font-size: 1rem;
+    border: none;
+}
+
+/* the form and conference is End*/
+
+.VTHR{
+    margin-top: 80px;
+    color: white;
+    background-color: #1162fb;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    gap: 20px;
+
+}
+.logo img{
+    filter: invert(100);
+    width: 80px;
+}
+
+/*    Address section Ends  */
+.image img{
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+.para{
+    padding-inline: 50px;
+    padding: 100px 50px;
+}
+.heading h2{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+/* conference schedule starts from here */
+.Schedule-h2{
+    text-align: center;
+    margin: 90px auto 50px auto;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.three-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.three-box a p{
+    height: 9vh;
+    width: 17vw;
+    text-decoration: none;
+}
+.three-box a{
+    text-decoration: none;
+    color: white;
+    background: #0556ed;
+}
+.first_para{
+    position: relative;
+    top: 30px;
+    left: 50%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: justify;
+    justify-content: center;
+}
+.second_para{
+    position: relative;
+    top: 0px;
+    left: 30%;
+    font-size: 1.6rem;
+}
+
+/* staff sectio start but not ends upper section */
+
+.profile-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.Schedule-main{
+    display: flex;
+    padding-inline: 15vw;
+    gap: 20px;
+}
+.staff img{
+    width: 180px;
+}
+.profile_one{
+    display: flex;
+    gap: 40PX;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#text span{
+    color: blue;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.bottom_border{
+    border-bottom: 0.2px solid grey;
+    padding-bottom: 30px;
+}
+
+/*   <!-- Conference Schedule Ends --> */
+
+.gallery_main{
+    display: flex;
+    gap: 20px;
+    padding-inline: 80px;
+}
+.gallery_main img{
+    width: 25%;
+}
+
+/* <!-- Conference Gallery Ends --> */
+.HClients_main{
+    gap: 25px;
+}
+.profile_text{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    text-align: center;
+    gap: 10px;
+    align-items: center;
+}
+.text{
+ gap: 10px;
+}
+.c_profiles img{
+ width: 150px;
+}
+.c_profiles{
+    border-left: 20px solid #1162fb;
+    position: relative;
+    border-top: 20px solid #1162fb;
+    border-bottom: 20px solid #1162fb;
+    width: 20%;
+}
+.c_profile{
+    height: 120px;   
+    width: 120px;
+    background-image: url('images/person_1.jpg');
+    background-size: 120px;
+    background-repeat: no-repeat;
+}
+.c_profile_diff{
+    background-image: url('images/person_2.jpg');
+}
+
+
+/* <!-- Happy Clients Ends secessfully --> */
+.box{
+    text-align: center;
+    line-height: 2.5;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 33%;
+}
+.Pricing_main{
+    gap: 40px;
+}
+.blue{
+    color: #1162fb;
+}
+.box h2{
+    font-size: 4rem;
+    margin: -10px;
+}
+.price_size{
+    font-size: 4rem;
+    margin: -40px;
+    font-weight: bold;
+}
+.small_team{
+    background-color: #1162fb;
+    color: white;
+}
+.small_team button{
+    background-color: white;
+    color: black;
+}
+
+/* <!-- Conference Ticket Pricing Ends Here sucessfully --> */
+
+
+.Speakers-main{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 15vw;
+    gap: 20px;
+}
+
+.Speakers-box{
+    display: flex;
+}
+
+.Speakers_uniq{
+    position: relative;
+    top: 180px;
+    left: 330px; 
+    gap: 5px;
+}
+
+.speaker_img{
+    background: url('images/Schedule_staff-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 36vw;
+}
+
+.Speakers_box2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Speaker_staff img{
+    width: 140px;
+    height: 150px;
+}
+.Speaker_text{
+    gap: 10px;
+    
+}
+.Speaker_logo a img{
+    width: 20px;
+    margin-top: 5px;
+    filter: blue(100%);
+    -webkit-filter: blue(100%);
+}
+
+/* <!-- Conference Schedule Ends sucessfully--> */
+
+.blog_container{
+    width: 33%;
+    gap: 20px;
+}
+.blog_main{
+    gap: 25px;
+}
+
+.blog_img img{
+    width: 100%;
+}
+.blog_text{
+    gap: 15px;
+}
+.blog_text > span{
+    font-size: 1.2rem;
+}
+.blog_text  p a> img{
+    width: 15px;
+}
+
+/* <!-- Recent Blog Ends sucessfully --> */
+
+.Subcribe_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 5px auto;
+    width: 40vw;
+}
+.form_div{
+    width: 40vw;
+    display: flex;
+    text-align: center;
+    margin: 10px auto;
+}
+.form_div input{
+    width: 22vw;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin-left: -70px;
+}
+.form_div button{
+    width: 6.5vw;
+    padding: 13px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.form_div button a{
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.heading{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+/* <!-- Subcribe to our Newsletter Ends Sucessfully --> */
+
+footer{
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    padding: 100px 0px;
+    height: 80vh;
+    gap: 80px;
+    
+}
+.footer_main{
+    /* display: flex; */
+    gap: 50px;
+}
+.footer_div{
+    width: 25%;
+}
+
+.footer_div h2{
+    margin-bottom: 50px;
+}
+
+.footer_div ul{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer_div ul li{
+   list-style: none;
+}
+.footer_div ul li a{
+    text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+.footer_logo img{
+    filter: invert(100%);
+    margin-top: 50px !important;
+    margin-right: 5px;
+    width: 40px !important;
+}
+.footer_img li img{
+    filter: invert(100%);
+    width: 20px;
+    margin-right: 20px;
+}
+.footer_text{
+    text-align: center;
+}
+.footer_text p img{
+    width: 20px;
+    filter: invert(100%);
+}
+
