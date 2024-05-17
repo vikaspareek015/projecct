@@ -1,0 +1,125 @@
+
+@media screen and (max-width: 991px) {  
+    h3{
+        font-size: 1.2rem;
+    }
+
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .main-nav {
+        overflow: initial;
+    }
+    
+    .nav-links{
+        background-color: #fff;
+        position: absolute;
+        left:-100%;
+        top: 100%;
+        width: 100%;
+        /* padding-block: 20px; */
+        transition: 0.2s ease-in-out;
+    }
+
+    .nav-links.active{
+        left:0;
+    }
+
+    .nav-links ul{
+        flex-direction: column;
+    }
+
+
+    .example-card {
+        width: 45%;
+        /* width: calc(50%-10px); */
+        height: 180px;
+    }
+
+    .example-area{
+        gap: 20px;
+    }
+
+    .cta-section{
+        padding-block:80px;
+    }
+}
+
+ @media screen and (max-width: 767px) {
+    
+    .primary-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-section{
+        flex-direction: column-reverse;
+    }
+
+    .header-left {
+        max-width: 100vw;
+        text-align: center;
+    }
+
+    .features-card{
+        min-width: calc(50%-10px);
+        /* min-width: 50%; */
+    }
+
+    .big-feature-container{
+        flex-direction: column;
+    }
+
+    .feature-img img {
+        width: 100vw;
+    }
+
+    .feature-desc {
+        width: 100%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .link-column h4{
+        font-size: 1.3rem;
+    }
+
+    .link-column{
+        align-items: stretch;
+    }
+}
+
+
+
+@media screen and (max-width: 479px) {
+    :root {
+        --padding-inline-section: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+      h2 {
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+    .features-card{
+        min-width: 100%;
+        /* min-width: 50%; */
+    }
+
+    .example-card{
+        width: 100%;
+    }
+
+} 
+

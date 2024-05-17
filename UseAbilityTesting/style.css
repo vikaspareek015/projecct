@@ -58,6 +58,7 @@ ul {
   max-width: 1180px;
   margin-inline: auto;
   padding-inline: var(--padding-inline-section);
+  overflow: hidden;
 }
 
 .flex {
@@ -119,6 +120,7 @@ ul {
 .main-nav {
   margin-top: 20px;
   justify-content: space-between;
+  position: relative;
 }
 
 .companie-logo img {
@@ -138,7 +140,7 @@ ul {
 
 .header-right img {
   /* width: 40vw; */
-  width: 600px;
+  width: 100%;
 }
 
 .header-left {
@@ -174,8 +176,9 @@ header {
 }
 
 .logos {
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  gap: 20px;
 }
 .logo {
   /* width: 120px; */
@@ -194,6 +197,7 @@ header {
 
 .feature-header {
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .feature-header-text {
@@ -202,17 +206,18 @@ header {
 
 .features-area {
   flex-wrap: wrap;
-  gap: 40px;
+  justify-content: space-between;
+  gap: 20px;
   margin-top: 20px;
 }
 
 .features-card {
   text-align: center;
   flex-direction: column;
-  justify-content: space-between;
   gap: 20px;
   max-width: 30%;
 }
+
 .features-card img {
   width: 40px;
 }
@@ -234,6 +239,7 @@ header {
   gap: 36px;
   width: 24rem;
 }
+
 .big-feature-container {
   gap: 30px;
 }
@@ -245,15 +251,20 @@ header {
 
 /* Example-section */
 
+.example-section{
+  padding: 80px var(--padding-inline-section);
+}
+
 .example-header {
   flex-direction: column;
   gap: 20px;
+  text-align: center;
 }
 
 .example-card {
   width: 22%;
   position: relative;
-  min-height: 300px;
+  height: 300px;
   background: black;
   background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url('assets/asset\ 36.jpeg');
   background-size: cover;
@@ -271,6 +282,7 @@ header {
 .example-area{
     justify-content: space-evenly;
     margin-block: 30px;
+    flex-wrap: wrap;
 }
 
 
@@ -337,10 +349,20 @@ footer{
   gap: 30px;
   text-align: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .subfooter-container a i{
   font-size: 1.5rem;
   opacity: 0.5;
+
+}
+
+
+
+/* For responsive --------------------> */
+
+.nav-toggle{
+  display: none;
 }
 
