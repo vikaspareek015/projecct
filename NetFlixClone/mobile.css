@@ -140,7 +140,15 @@
 
   /* other classes */
 
+
   /* header */
+  header {
+    height: 20vh;
+  }
+  /* .hero-text {
+    margin-top: 40px;
+  } */
+
   .netflix-logo img {
     width: 90px;
   }
