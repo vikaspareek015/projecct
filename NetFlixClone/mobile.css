@@ -146,14 +146,12 @@
     height: 43vh;
   } */
   header {
-    height: 40vh;
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* background-position: center; */
-    /* margin-bottom: 0px; */
+    height: 45vh;
+
   }
   .hero-text {
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     gap: 9px;
   }
 
