@@ -104,6 +104,9 @@ header {
     ),
     url("Assets/bg-img.jpg");
     /* position: relative; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 .netflix-logo img {
   width: 140px;

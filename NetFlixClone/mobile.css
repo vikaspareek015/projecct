@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 470px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 900;
     color: white;
   }
@@ -142,11 +142,19 @@
 
 
   /* header */
+  .header{
+    height: 43vh;
+  }
   header {
-    height: 50vh;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 0px;
   }
   .hero-text {
-    margin-top: 30px;
+    margin-top: 40px;
+    gap: 9px;
   }
 
   .netflix-logo img {
