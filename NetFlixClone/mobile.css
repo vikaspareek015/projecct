@@ -147,10 +147,10 @@
   } */
   header {
     height: 40vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 0px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* margin-bottom: 0px; */
   }
   .hero-text {
     margin-top: 40px;
