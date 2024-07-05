@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background: #e3f9ff; */
+    background: #3a4452;
+    /* color: #33ffd8; */
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+table{
+    border: 2px solid black;
+}
+.container{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+a:hover{
+    /* color: rgb(110, 110, 110); */
+    color: #79a3f1;
+}
+th, td{
+    padding: 15px;
+}
+h1{
+    text-decoration:underline;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: lighter;
+}
+p{
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (max-width: 480px){
+    .container{
+        padding: 20px;
+    }
+    h1{
+        font-size: 1rem;
+        margin-bottom: -40px;
+    }
+    table{
+        font-size: 0.5rem;
+        margin: 50px;
+    }
+    th, td{
+        padding: 5px;
+    }
+
+}
+
+/* @media screen and (max-width: 767px){
+    
+}
+
+@media screen and (max-width: 991px){
+    
+} */
