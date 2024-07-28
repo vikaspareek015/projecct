@@ -39,6 +39,9 @@ a:hover{
 th, td{
     padding: 15px;
 }
+td, tr{
+    border: 2px solid #606163;
+}
 h1{
     text-decoration:underline;
     margin-top: 20px;
