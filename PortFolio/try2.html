@@ -1,0 +1,77 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 600px;
+            height: 400px;
+            background-color: #333;
+            margin: 0 auto;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .box{
+            /* height:200px; */
+            width: 100px;
+            border-radius: 15px;
+            flex-wrap: wrap;
+        }
+        .box1{
+            background-color: #571a1a;
+        }
+        .box2{
+            background-color: blue;
+        }
+        .box3{
+            background-color: purple;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">iam box</div>
+        <div class="box box2">iam box</div>
+        <div class="box box3">iam box</div>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Wrap Example</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%; /* Ensure container has a width */
+            border: 1px solid #000;
+        }
+        .item {
+            flex: 1 1 30%; /* Flex-grow, flex-shrink, and flex-basis */
+            margin: 10px;
+            padding: 20px;
+            background-color: lightblue;
+            text-align: center;
+            box-sizing: border-box; /* Include padding and border in width */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+</body>
+</html>
