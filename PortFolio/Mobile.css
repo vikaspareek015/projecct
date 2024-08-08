@@ -1,50 +1,136 @@
-@media (max-width:992px){
-    .navbar .links,
-    .navbar .action_btn{
-        display: none;
+@media (max-width: 992px) {
+  .navbar .links,
+  .navbar .action_btn {
+    display: none;
+  }
+
+  .navbar .toggle_btn {
+    display: block;
+  }
+  .dropdown_bar .action_btn {
+    display: flex;
+  }
+
+  .aboutBox {
+    flex-wrap: wrap;
+  }
+  .Project-box {
+    flex-grow: 1;
+  }
+
+    /* form --- */
+    .Form-boxs {
+      width: 100%;
+      padding: 0rem;
+      flex-wrap: wrap;
+    }
+    .form-box {
+      padding: 0px;
+      width: 100%;
     }
 
-    .navbar .toggle_btn{
-        display: block;
-    }
-    .dropdown_bar .action_btn{
-        display: flex;
+    .detail-box{
+      width: 100%;
     }
 
-    .aboutBox{
-        flex-wrap: wrap;
-    }
-
-    /* new  */
 }
 
-@media (max-width:768px){
+@media (max-width: 768px) {
+  .Project-box {
+    flex-grow: 1;
+  }
 
+  /* form --- */
+  .Form-boxs {
+    width: 100%;
+    padding: 0rem;
+    flex-wrap: wrap;
+  }
+  .form-box {
+    padding: 0px;
+    width: 100%;
+  }
 }
-
-
 
 /* @media (max-width:480px){ */
-@media (max-width:576px){
-    .aboutBox{
-        width: 90vw;
-        display: flex;
-        justify-content: center;
-    }
-    .aboutBox .about1 img{
-        width: 300px;
-        height: 250px;
-        margin: 0 auto;
-    }
-    /* .aboutBox .about1 img{
+@media (max-width: 576px) {
+  .aboutBox {
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+  }
+  .aboutBox .about1 img {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  /* .aboutBox .about1 img{
         width: 300px;
         height: 250px;
         margin: 0 auto;
     } */
-    .aboutBox .about2{
-       width: 80%;
-    }
-    .aboutBox .about2 .heading{
-        font-size: 2rem;
-    }
+  .aboutBox .about2 {
+    width: 80%;
+  }
+  .aboutBox .about2 .heading {
+    font-size: 2rem;
+  }
+
+  /* My skill section --- */
+  .row {
+    padding: 1rem;
+  }
+
+  .container h3 {
+    font-size: 1.8rem;
+  }
+  .container h3 + p {
+    font-size: 0.9em;
+  }
+
+  .row-skill-box h2 {
+    font-size: 18px;
+  }
+
+  .row-inner .inner-progress span {
+    font-size: 20px;
+  }
+
+  .MySkill-section {
+    padding: 1rem;
+  }
+
+  .container {
+    gap: 10px;
+  }
+  .row-skill-box {
+    padding: 0rem;
+  }
+
+  /*Project section  */
+  .Project-box {
+    flex-grow: 1;
+  }
+
+  /* form */
+  .Form-boxs {
+    /* padding: 5rem;
+    padding-top: 2rem;
+    display: flex; */
+    gap: 50px;
+    /* flex-wrap: wrap; */
+  }
+
+  .detail-box{
+    width: 100%;
+  }
+  
+  /* footer */
+  footer div a i{
+    font-size: 20px;
+  }
+
+  footer{
+    padding: 2rem;
+  }
 }

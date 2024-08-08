@@ -6,9 +6,11 @@
   font-family: 'open sans', sans-serif;
   /* font-family: "Roboto", sans-serif; */
 }
+
 body{
     color: rgba(255, 255, 255, 0.4);
     background: #222;
+    /* background: #6C757D; */
     line-height: 1.7;
     font-size: 16px;
     font-weight: 300;
@@ -19,6 +21,10 @@ body{
     /* --bg-color1:#333; */
     --box-bgcolor:#2d2c2c;
     --download-bgcolor:#6c757d;
+    --boxdark-bgcolor:#55595d;
+    --primary-Color:#bac964;
+    --secondary-Color:#6c757d;
+    --grey-Color:#6c757d;
 }
 /* flex class for reuse */
 .flex-complete{
@@ -87,8 +93,9 @@ nav .links {
 /* end here */
 
 .action_btn {
-  background-color: orange;
-  color: #fff;
+  background-color: #bac964;
+  color: #212529;
+  color: white;
   border-radius: 10px;
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -153,7 +160,8 @@ header {
 }
 .open {
   display: block;
-  height: 300px;
+  /* height: 300px; */
+  height: 350px;
 }
 .dropdown_bar li {
   padding: 0.7rem;
@@ -351,39 +359,264 @@ header .intro p:nth-child(3) {
 }
 
 /* My skills section---------------- */
+.section{
+  height: 100%;
+  padding: 4rem 50vw; /*Edit this to decrease the space between box's*/
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
 .MySkill-section{
-  height: 700px;
-  border: 2px solid red;
-  padding: 5rem;
+  /* height: 700px; */
+  height: 100%;
+  /* padding: 8rem; */
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 .container{
+  padding: auto 12rem;
   width: 100%;
-  max-width: 75vw;
+  min-width: 90vw;
   margin: 10px auto;
-  border: 2px solid purple;
-}
-.row{
-  border: 2px solid blue;
-  padding: 2rem;
-}
-.row-outer{
-  border: 2px solid red;
-  width: 30%;
   display: flex;
-  /* justify-content: col; */
   flex-direction: column;
-  flex-wrap: wrap;
+  /* gap: 30px; */
+}
+.container h3{
+  font-size: 2rem;
+  letter-spacing: 8px;
+}
+.container h3 + p{
+  font-size: 1em;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+.row{
+  padding: 2rem;
+  /* padding-bottom: 20px; */
+  text-align: center;
+}
+
+.row-outer{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-basis: 500;
+  position: relative;
 }
 .row-inner{
-  width: 20rem;
-  border-radius: 5px;
-  height: 20px;
-  border: 2px solid white;
+  width: 100%;
+  border-radius: 5px 50px 50px 5px;
+  height: 15px;
   background-color: grey;
 }
+.row-inner .inner-progress span{  
+  position: absolute;
+  font-size: 29px;
+  right: 20px;
+  bottom: 15px;
+}
 .inner-progress{
-  width: 80%;
+  /* width: 80%; */
   height: 100%;
+  border-radius: 5px 50px 50px 5px;
   background-color: orange;
+}
+
+.row-skill-box{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 5rem;
+  padding-top: 2rem;
+}
+.row-skill-box h2{
+  margin-left: 10px;
+}
+
+/* Progress bar width ---- */
+/* these are the inner progress id's */
+#HTML-progress{
+  width: 90%;
+}
+#css-progress{
+  width: 80%;
+}
+#javascript-progress{
+  width: 70%;
+}
+#bootstrap-progress{
+  width: 85%;
+}
+#sql-progress{
+  width: 80%;
+}
+#python-progress{
+  width: 60%;
+}
+/* End here --- */
+
+
+/* Project section -------------- > */
+.project-row{
+  gap: 25px;
+}
+.project-row a{
+  overflow: hidden;
+}
+
+.Project-box{
+  overflow: hidden;
+  height: 290px;
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+  filter: grayscale(100%);
+  transition: all 1s ease;
+}
+.Project-box:hover{
+  overflow: hidden;
+  filter: grayscale(0%);
+  transform: scale(1.05);
+  z-index: 33;
+}
+
+.Project-box-2{
+  flex-grow: 1;
+  background: url(Project-img/project-5.jpg) center/cover no-repeat;
+}
+.Project-box-3{
+  flex-grow: 1;
+  background: url(Project-img/project-1.jpg) center/cover no-repeat; /*Done*/
+}
+.Project-box-5{
+  flex-grow: 1;
+  background: url(Project-img/project-6.jpg) center/cover no-repeat; /*Done*/
+}
+.Project-box-1{
+  background: url(Project-img/project-4.jpg) center/cover no-repeat; /*Done*/
+}
+.Project-box-4{
+  background: url(Project-img/project-2.jpg) center/cover no-repeat; /*Done*/
+}
+.Project-box-6{
+  background: url(Project-img/project-3.jpg) center/cover no-repeat; /*Done*/
+}
+
+ 
+/*Form section starts from here  */
+.form-container{
+  display: flex;
+  /* flex-direction: row; */
+
+}
+.Form-section{
+  /* height: 700px; */
+  /* border: 2px solid red; */
+}
+.Form-section .container .row h3 span{
+  font-weight: 100;
+}
+
+.Form-boxs{
+  padding: 5rem;
+  padding-top: 2rem;
+  display: flex;
+  gap: 80px;
+  /* flex-wrap: wrap; */
+  /* height: 500px; */
+  /* width: 100%; */
+}
+
+.form-box-h2{
+  font-weight: 100;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto;
+  margin-bottom: 20px;
+}
+
+.form-box{
+  /* background: yellowgreen; */
+  /* border: 2px solid yellowgreen; */
+  width: 60%;
+  padding: 1rem;
+  /* height: 100%; */
+}
+
+form button{
+  height: 50px;
+  margin-top: 20px;
+}
+form div input, textarea{
+  width: 100%;
+  /* height: 50px; */
+  padding: 20px ;
   border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) !important;
+  /* background-color: var(--grey-Color); */
+  background-color: var(--box-bgcolor);
+  color: white;
+  transition: all 0.5s ease;
+  margin-top: 20px;
+}
+form div input:focus, textarea:focus{
+  background-color: var(--boxdark-bgcolor);
+}
+::placeholder{
+  font-size: 20px;
+  color: var(--secondary-Color);
+  /* margin-right: 10px; */
+  padding: 5px;
+}
+
+.detail-box{
+  width: 40%;
+}
+
+.detail-box div p:nth-child(2n+1){
+  color: #2c3e50;
+}
+
+.detail-box div p:nth-child(Even){
+  margin-bottom: 40px;
+  color: var(--secondary-Color);
+}
+
+
+/* Footer ----------- ------------ -------- */
+footer{
+  width: 100%;
+  /* height: 400px; */
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 5rem;
+}
+
+footer p{
+  font-size: 1rem;
+}
+footer div{
+  /* width: 100%; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+footer div a i{
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.8s ease;
+}
+
+footer div a i:hover{
+  transform: scale(1.5);
 }
